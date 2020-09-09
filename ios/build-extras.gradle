@@ -1,0 +1,2 @@
+ // In <your-project>/platforms/android/app/build-extras.gradle
+  ext.cdvMinSdkVersion = 20
