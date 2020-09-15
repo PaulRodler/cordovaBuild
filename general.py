@@ -17,6 +17,7 @@ def validetUrl(url):
         return url
 
 
+
 def removeProjectFiles():
     try:
         os.system('rm -r android/www android/platforms android/plugins android/build.json '

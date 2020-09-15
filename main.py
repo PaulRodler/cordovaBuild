@@ -6,6 +6,7 @@ def main(url = None, build = None):
     #print('main: ' + url)
     appName = getName()
     url = validetUrl(url)
+
     if(url == None):
         print('[ **error**] url is None')
         exit(1)
